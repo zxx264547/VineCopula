@@ -1,6 +1,9 @@
 % clc
 % clear
 % close all
+
+% 功能：重构异常数据
+
 % load initialize_无噪声
 % load list_out_vine_copula
 % load list_out_copula

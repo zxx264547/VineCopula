@@ -15,7 +15,7 @@ end
 
 if root==2
     % 选择最优copula
-    C1 = Copula_selcet(u1,u2);%选取第一条边的copula函数(TE)
+    C1 = Copula_selcet(u1,u2);%选取第一条边的copula函数
     C2 = Copula_selcet(u2,u3);%选取第二条边的copula函数
     % 根据最优copula计算条件cdf值
     u_12 = Get_Ccdf(C1,u1,u2);%第一条边的条件cdf值
@@ -29,7 +29,7 @@ if root==2
     
 elseif root == 3
     % 选择最优copula
-    C1 = Copula_selcet(u2,u3);%选取第一条边的copula函数(TE)
+    C1 = Copula_selcet(u2,u3);%选取第一条边的copula函数
     C2 = Copula_selcet(u1,u3);%选取第二条边的copula函数
     % 根据最优copula计算条件cdf值
     u_13 = Get_Ccdf(C1,u2,u3);%第一条边的条件cdf值
